@@ -10,7 +10,7 @@ function TravelList(){
     }
     
     return (
-        travelPlansData.map(item => {
+        displayData.map(item => {
             return(
                 <div className="destination" key={item.id}>
                     <img src={item.image}/>
